@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+<title>Nuestra Boda</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial;
+}
+
+.header {
+    text-align: center;
+    padding: 32px;
+}
+
+.row {
+    max-width: 1200px;
+    
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+}
+/* Create two equal columns that sits next to each other */
+.column {
+    -ms-flex: 50%; /* IE 10 */
+    flex: 50%;
+    padding: 0 4px;
+}
+
+.column img {
+    margin-top: 8px;
+    vertical-align: middle;
+}
+
+
+
+</style>
+<body class="w3-light-grey">
+
+<!-- Sidebar/menu -->
+<nav class="w3-sidebar w3-bar-block w3-light-blue w3-animate-right w3-top w3-text-light-grey w3-large" style="z-index:3;width:250px;font-weight:bold;display:none;right:0;" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-32">Cerrar</a> 
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Inicio</a>
+  <a href="brooklyn.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Brooklyn</a>
+  <a href="monumento.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Monumento</a>
+  <a href="puertoplata.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Puerto Plata</a>
+  <a href="santocerro.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Santo Cerro</a>
+  <a href="worldtrade.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">World Trade Center</a> 
+  <a href="boda.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Boda</a>
+  <a href="varias.html" onclick="w3_close()" class="w3-bar-item w3-button w3-center w3-padding-16">Varias</a>
+  
+</nav>
+
+<!-- Top menu on small screens -->
+<header class="w3-container w3-top w3-white w3-xlarge w3-padding-16">
+  <span class="w3-left w3-padding">Nuestra Boda</span>
+  <a href="javascript:void(0)" class="w3-right w3-button w3-white" onclick="w3_open()">☰</a>
+</header>
+
+<!-- Overlay effect when opening sidebar on small screens-->
+<div class="w3-overlay w3-animate-opacity" onclick="w3_close()" style="cursor:pointer" title="close side menu" id="myOverlay"></div>
+
+-- Photo Grid -->
+<center><div class="row"> 
+  <div class="column">
+   
+    <a target="_blank" href="Boda/1.jpg">
+    <img src="Boda/1.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/5.jpg">
+    <img src="Boda/5.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/9.jpg">
+    <img src="Boda/9.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/13.jpg">
+    <img src="Boda/13.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/17.jpg">
+    <img src="Boda/17.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/21.jpg">
+    <img src="Boda/21.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/25.jpg">
+    <img src="Boda/25.jpg" style="width:100%">
+    </a>
+  </div>
+  
+  <div class="column">
+    <a target="_blank" href="Boda/2.jpg">
+    <img src="Boda/2.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/6.jpg">
+    <img src="Boda/6.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/10.jpg">
+    <img src="Boda/10.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/14.jpg">
+    <img src="Boda/14.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/18.jpg">
+    <img src="Boda/18.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/22.jpg">
+    <img src="Boda/22.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/26.jpg">
+    <img src="Boda/26.jpg" style="width:100%">
+    </a>
+  </div>  
+  <div class="column">
+  <a target="_blank" href="Boda/3.jpg">
+    <img src="Boda/3.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/7.jpg">
+    <img src="Boda/7.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/11.jpg">
+    <img src="Boda/11.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/15.jpg">
+    <img src="Boda/15.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/19.jpg">
+    <img src="Boda/19.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/23.jpg">
+    <img src="Boda/23.jpg" style="width:100%">
+    </a>
+   
+  </div>
+  <div class="column">
+    <a target="_blank" href="Boda/4.jpg">
+    <img src="Boda/4.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/8.jpg">
+    <img src="Boda/8.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/12.jpg">
+    <img src="Boda/12.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/16.jpg">
+    <img src="Boda/16.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/20.jpg">
+    <img src="Boda/20.jpg" style="width:100%">
+    </a>
+    <a target="_blank" href="Boda/24.jpg">
+    <img src="Boda/24.jpg" style="width:100%">
+    </a>
+  </div>
+</div></center>
+
+  
+  <!-- Modal for full size images on click-->
+  <div id="modal01" class="w3-modal w3-black" style="padding-top:0" onclick="this.style.display='none'">
+    <span class="w3-button w3-black w3-xlarge w3-display-topright">×</span>
+    <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
+      <img id="img01" class="w3-image">
+      <p id="caption"></p>
+    </div>
+  </div>
+
+ 
+      
+           
+<script>
+// Get the elements with class="column"
+var elements = document.getElementsByClassName("column");
+
+// Four images side by side
+
+    for (i = 0; i < elements.length; i++) {
+        elements[i].style.msFlex = "25%";  
+        elements[i].style.flex = "25%";
+    }
+    
+// Script to open and close sidebar
+function w3_open() {
+    document.getElementById("mySidebar").style.display = "block";
+    document.getElementById("myOverlay").style.display = "block";
+}
+
+function w3_close() {
+    document.getElementById("mySidebar").style.display = "none";
+    document.getElementById("myOverlay").style.display = "none";
+}
+
+// Modal Image Gallery
+function onClick(element) {
+  document.getElementById("img01").src = element.src;
+  document.getElementById("modal01").style.display = "block";
+  var captionText = document.getElementById("caption");
+  captionText.innerHTML = element.alt;
+}
+
+</script>
+
+
+</body>
+</html>
